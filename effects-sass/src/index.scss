@@ -42,3 +42,46 @@
     color: rebeccapurple;
   }
 }
+
+.watchContainer, .card-container {
+  width: 50%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid gray;
+  margin-top: 40px;
+  p{
+    margin: 0;
+    font-size: 4.5rem;
+  }
+}
+
+.card-container {
+  &__card{
+    border: 1px solid black;
+    height: 150px;
+    width: 200px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__title {
+    font-size: 20px;
+  }
+  &__image {
+    height: 75px;
+    border: 1px solid black;
+  }
+}
+
+.stuff {
+  width: 100%;
+  border: 2px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
