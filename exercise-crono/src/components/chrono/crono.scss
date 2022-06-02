@@ -1,0 +1,28 @@
+.watch-section{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    &__button{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: none;
+        background: linear-gradient(225deg, #c3c5c6, #a4a6a7);
+        box-shadow: -5px 5px 12px #9d9e9f, 5px -5px 12px #cfd2d3;
+        outline: none;
+        cursor: pointer;
+    }
+    &__button:active {
+        background: linear-gradient(315deg, #949596, #afb2b3);
+        box-shadow: -20px -20px 60px #8b8d8e, 20px 20px 60px #bdbfc0;
+      }
+}

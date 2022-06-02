@@ -1,0 +1,14 @@
+.date {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &__info{
+        background-color: white;
+        border-radius: 3px;
+        width: 45px;
+        display: flex;
+        justify-content: center;
+    }
+}
